@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Catalog",
+    "slug": "Catalog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ly.img.catalog.rn"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_foreground.png",
+        "backgroundColor": "#F3F3F7"
+      },
+      "package": "ly.img.catalog.rn"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-imglysdk",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let load them into the editor."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Please grant access to your photos.",
+          "savePhotosPermission": "Please grant access to save photos.",
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ]
+  }
+}

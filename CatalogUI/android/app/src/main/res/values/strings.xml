@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CatalogUI</string>
+
+    <!-- Strings for IMG.LY SDKs. -->
+    <string name="pesdk_transform_title_name">Crop</string>
+    <string name="pesdk_adjustments_title_name">Correct</string>
+    <string name="pesdk_adjustments_button_reset">Clear</string>
+</resources>

@@ -19,11 +19,13 @@ import { openVideoFromMultipleVideosExample } from "../examples/editor/openVideo
 import { openVideoFromRemoteURLExample } from "../examples/editor/openVideo/fromRemoteURL/OpenVideoFromRemoteURL";
 import { photoDeserializationExample } from "../examples/editor/restoreState/PhotoDeserializationExample";
 import { videoDeserializationExample } from "../examples/editor/restoreState/VideoDeserializationExample";
+import { videoSegmentsDeserializationExample } from "../examples/editor/restoreState/VideoSegmentsDeserializationExample";
 import { savePhotoBase64Example } from "../examples/editor/savePhoto/SavePhotoBase64Example";
 import { savePhotoCameraRollExample } from "../examples/editor/savePhoto/SavePhotoCameraRollExample";
 import { savePhotoFileSystemExample } from "../examples/editor/savePhoto/SavePhotoFileSystemExample";
 import { savePhotoRemoteURLExample } from "../examples/editor/savePhoto/SavePhotoRemoteURLExample";
 import { photoSerializationExample } from "../examples/editor/saveState/PhotoSerializationExample";
+import { videoSegmentsSerializationExample } from "../examples/editor/saveState/VideoSegmentsSerializationExample";
 import { videoSerializationExample } from "../examples/editor/saveState/VideoSerializationExample";
 import { saveVideoBase64Example } from "../examples/editor/saveVideo/SaveVideoBase64Example";
 import { saveVideoCameraRollExample } from "../examples/editor/saveVideo/SaveVideoCameraRollExample";
@@ -311,6 +313,13 @@ const serializationExamplesVESDK: ExampleItem[] = [
       "Presents a video editor, serializes all edits and prints the output to the debugging console.",
     example: videoSerializationExample,
   },
+  {
+    title: "Serialization Video Segments",
+    product: Product.VESDK,
+    description:
+      "Presents a video editor, serializes all edits and prints the output to the debugging console.",
+    example: videoSegmentsSerializationExample,
+  },
 ];
 
 const deserializationExamplesVESDK: ExampleItem[] = [
@@ -320,6 +329,13 @@ const deserializationExamplesVESDK: ExampleItem[] = [
     description:
       "Loads a serialized JSON file from the app bundle and presents a video editor with state restored.",
     example: videoDeserializationExample,
+  },
+  {
+    title: "Deserialization Video Segments",
+    product: Product.VESDK,
+    description:
+      "Loads serialized video segments and presents a video editor with state restored.",
+    example: videoSegmentsDeserializationExample,
   },
 ];
 

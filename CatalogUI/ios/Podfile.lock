@@ -74,11 +74,11 @@ PODS:
   - fmt (6.2.1)
   - glog (0.3.5)
   - hermes-engine (0.70.0)
-  - imglyKit (11.3.1)
+  - imglyKit (11.3.3)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
-  - PhotoEditorSDK (11.3.1):
-    - imglyKit (= 11.3.1)
+  - PhotoEditorSDK (11.3.3):
+    - imglyKit (= 11.3.3)
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -377,20 +377,20 @@ PODS:
     - React-jsi (= 0.70.0)
     - React-logger (= 0.70.0)
     - React-perflogger (= 0.70.0)
-  - RNPhotoEditorSDK (2.15.0):
-    - PhotoEditorSDK (~> 11.1)
+  - RNPhotoEditorSDK (2.16.1):
+    - PhotoEditorSDK (~> 11.3)
     - React
     - React-RCTImage
   - RNScreens (3.11.1):
     - React-Core
     - React-RCTImage
-  - RNVideoEditorSDK (2.15.0):
+  - RNVideoEditorSDK (2.16.1):
     - React
     - React-RCTImage
-    - VideoEditorSDK (~> 11.1)
+    - VideoEditorSDK (~> 11.3)
   - SocketRocket (0.6.0)
-  - VideoEditorSDK (11.3.1):
-    - imglyKit (= 11.3.1)
+  - VideoEditorSDK (11.3.3):
+    - imglyKit (= 11.3.3)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -577,10 +577,10 @@ SPEC CHECKSUMS:
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 8e84f1284180801c1a1b241f443ba64f931ff561
-  imglyKit: 34eb8e0e1a399b815b2a5baf2f5afa3a4fc47105
+  imglyKit: 5dba5e59e819f4dd1cb65e1591102459c41d006b
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
-  PhotoEditorSDK: 43fb8ecca096cd919c6bdfc2a18da870cb3abfd3
+  PhotoEditorSDK: 3dc060c6bc8b115115d98c2b693c8ece23468d84
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: d0e501e8024056451424aa341daa078c0c620b0d
   RCTTypeSafety: 14a3928ef69eeb4e5bb4f36fefb5ed6a392643ac
@@ -609,11 +609,11 @@ SPEC CHECKSUMS:
   React-RCTVibration: 5499b77c0fd57f346a5f0b36bb79fdb020d17d3e
   React-runtimeexecutor: 80c195ffcafb190f531fdc849dc2d19cb4bb2b34
   ReactCommon: de55f940495d7bf87b5d7bf55b5b15cdd50d7d7b
-  RNPhotoEditorSDK: 31e719b1b4b8e66713bb9666976c301810d2fbc2
+  RNPhotoEditorSDK: c1f39ff29ab78b110eb406edd624b92358524a17
   RNScreens: 4d83613b50b74ed277026375dc0810893b0c347f
-  RNVideoEditorSDK: 29840b203164fdc9d9f102ecdb565db9506ed83b
+  RNVideoEditorSDK: 4be6f1adbafbb9a1384fb868fcd00f2782466fb5
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
-  VideoEditorSDK: 2ce0625cd89d7bcb9c26a61ff2e4f52c9e9f7059
+  VideoEditorSDK: b7f9631c7b9639424ade795946ba31632eb62047
   Yoga: 82c9e8f652789f67d98bed5aef9d6653f71b04a9
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

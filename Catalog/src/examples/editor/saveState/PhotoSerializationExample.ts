@@ -1,7 +1,7 @@
 import {
   Configuration,
   PESDK,
-  SerializationExportType,
+  SerializationExportType
 } from "react-native-photoeditorsdk";
 
 export const photoSerializationExample = async (): Promise<void> => {
@@ -26,9 +26,7 @@ export const photoSerializationExample = async (): Promise<void> => {
 
   try {
     // Open the photo editor and handle the export as well as any occuring errors.
-    // highlight-open-editor
     const result = await PESDK.openEditor(photo, configuration);
-    // highlight-open-editor
 
     if (result != null) {
       // The user exported a new photo successfully and the newly generated photo is located at `result.image`

@@ -100,7 +100,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   // highlight-icons-pesdk
   [PESDK setBundleImageBlock:^UIImage * _Nullable(NSString * _Nonnull identifier) {
     if ([identifier isEqualToString:@"imgly_icon_save"]) {
-      return [UIImage imageNamed:@"imgly_icon_approve_44pt"];
+      return [UIImage imageWithContentsOfFile:[NSBundle.imgly_resourceBundle URLForResource:@"imgly_icon_approve_44pt" withExtension:@"png"].path];
     }
     return nil;
   }];
@@ -108,7 +108,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   // highlight-icons-vesdk
   [VESDK setBundleImageBlock:^UIImage * _Nullable(NSString * _Nonnull identifier) {
     if ([identifier isEqualToString:@"imgly_icon_save"]) {
-      return [UIImage imageNamed:@"imgly_icon_approve_44pt"];
+      return [UIImage imageWithContentsOfFile:[NSBundle.imgly_resourceBundle URLForResource:@"imgly_icon_approve_44pt" withExtension:@"png"].path];
     }
     return nil;
   }];

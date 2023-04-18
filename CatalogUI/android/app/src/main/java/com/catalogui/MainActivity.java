@@ -4,7 +4,49 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
+import ly.img.android.pesdk.backend.model.config.OverlayAsset;
+import ly.img.android.pesdk.backend.model.state.AssetConfig;
+import ly.img.android.pesdk.backend.model.state.OverlaySettings;
+import ly.img.android.pesdk.ui.model.state.UiConfigText;
+
+import ly.img.react_native.pesdk.RNPhotoEditorSDKModule;
+import ly.img.react_native.vesdk.RNVideoEditorSDKModule;
+
 public class MainActivity extends ReactActivity {
+    @Override
+    protected void onStart() {
+        // highlight-open-closure-pesdk
+        RNPhotoEditorSDKModule.editorWillOpenClosure = ((settingsList) -> {
+            // Remove first color item which is the color pipette.
+            settingsList.getSettingsModel(UiConfigText.class).getTextColorList().remove(0);
+            return null;
+        });
+        // highlight-open-closure-pesdk
+        // highlight-open-closure-vesdk
+        RNVideoEditorSDKModule.editorWillOpenClosure = ((settingsList) -> {
+            // Remove first color item which is the color pipette.
+            settingsList.getSettingsModel(UiConfigText.class).getTextColorList().remove(0);
+            return null;
+        });
+        // highlight-open-closure-vesdk
+        // highlight-export-closure-pesdk
+        RNPhotoEditorSDKModule.editorWillExportClosure = (stateHandler -> {
+            // Add an overlay to the image.
+            OverlayAsset overlay = stateHandler.getSettingsModel(AssetConfig.class).getAssetById(OverlayAsset.class, "imgly_overlay_golden");
+            stateHandler.getSettingsModel(OverlaySettings.class).setOverlayAsset(overlay);
+            return null;
+        });
+        // highlight-export-closure-pesdk
+        // highlight-export-closure-vesdk
+        RNVideoEditorSDKModule.editorWillExportClosure = (stateHandler -> {
+            // Add an overlay to the video.
+            OverlayAsset overlay = stateHandler.getSettingsModel(AssetConfig.class).getAssetById(OverlayAsset.class, "imgly_overlay_golden");
+            stateHandler.getSettingsModel(OverlaySettings.class).setOverlayAsset(overlay);
+            return null;
+        });
+        // highlight-export-closure-vesdk
+        super.onStart();
+    }
 
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule

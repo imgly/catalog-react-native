@@ -30,7 +30,14 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "react-native-imglysdk",
+      [
+        "react-native-imglysdk",
+        {
+          "android": {
+            "version": "10.4.1"
+          }
+        }
+      ],
       [
         "expo-image-picker",
         {

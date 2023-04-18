@@ -5943,19 +5943,19 @@ react-native-gradle-plugin@^0.70.2:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.2.tgz#b5130f2c196e27c4c5912706503d69b8790f1937"
   integrity sha512-k7d+CVh0fs/VntA2WaKD58cFB2rtiSLBHYlciH18ncaT4N/B3A4qOGv9pSCEHfQikELm6vAf98KMbE3c8KnH1A==
 
-react-native-imglysdk@2.16.1:
-  version "2.16.1"
-  resolved "https://registry.yarnpkg.com/react-native-imglysdk/-/react-native-imglysdk-2.16.1.tgz#dcb2708adefae303a5fd8db0c14cc75164b9b122"
-  integrity sha512-QhJ+wkpgD1tx/y1If3bM3AmEAwaiRP25EEPHp85fJ4keFLTUw3q8BBiZUaxtpKTgOn6409SgZvwIeUgddHNiQQ==
+react-native-imglysdk@2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-imglysdk/-/react-native-imglysdk-2.17.0.tgz#8c5f1c5b52f7d77b2c7c39953c6be4f9275bb9f4"
+  integrity sha512-DrdcYyfQc22KSbzRJFOwtHWSZIzMzreimCXP7ZJ6QRuFgrtM/mSdUjyUB8tmD+d9PC+SmSQUWsB+2iI/WtAnhg==
   dependencies:
     "@expo/config-plugins" "^4.0.9"
 
-react-native-photoeditorsdk@^2.16.1:
-  version "2.16.1"
-  resolved "https://registry.yarnpkg.com/react-native-photoeditorsdk/-/react-native-photoeditorsdk-2.16.1.tgz#cb910110b951950bb6111938e063e46190fc026d"
-  integrity sha512-Da2KWGmsailyB+ApuBZjBKoeDhRwabHuv52dI9mPkYfOFXJVp6PMtmbqg9mWCfZnAozM/7vT9D0QRPl1gIYykA==
+react-native-photoeditorsdk@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-photoeditorsdk/-/react-native-photoeditorsdk-2.17.0.tgz#77e8a071b1eaeaa2d4f87b9601bc1b378fda8034"
+  integrity sha512-YrOmvMri3VOOGI5agu9xdheyt3C60CyKc+aepWs73Nou1yG/d8x0RiIbp7YMt1hLfiYN23IDPmpFakKyfSkfcA==
   dependencies:
-    react-native-imglysdk "2.16.1"
+    react-native-imglysdk "2.17.0"
 
 react-native-safe-area-context@4.2.4:
   version "4.2.4"
@@ -5970,12 +5970,12 @@ react-native-screens@~3.11.1:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
 
-react-native-videoeditorsdk@^2.16.1:
-  version "2.16.1"
-  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-2.16.1.tgz#5411714cfd6924121a512beef5e21d6b9a1147b3"
-  integrity sha512-X3kmWoTzXSeEj+9aZ4hVPQDIRPbhw5VEk8QuyGPptk4cA/KFm/QiGd2FNzJlRC4p07NyUAleo30r/F+s/etR0Q==
+react-native-videoeditorsdk@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-2.17.0.tgz#d079d3ac34d27abbc334a3a6f6da6eb8df4fad12"
+  integrity sha512-W3zc83MkEpRWajZL+RO3raRZbBr02RowF4uAlIZHzq1i9hdhd8fjuWkjx5CjxvL/FN7lwq99P8MxcVNYRpB9/g==
   dependencies:
-    react-native-imglysdk "2.16.1"
+    react-native-imglysdk "2.17.0"
 
 react-native@0.70.0:
   version "0.70.0"

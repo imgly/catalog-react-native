@@ -71,6 +71,8 @@ import { photoTransformConfigurationExample } from "../examples/transform/config
 import { videoTransformConfigurationExample } from "../examples/transform/configuration/VideoTransformConfigurationExample";
 import { videoTrimConfigurationExample } from "../examples/trim/configuration/VideoTrimConfigurationExample";
 import { videoEnforceDurationExample } from "../examples/trim/enforceDuration/VideoEnforceDurationExample";
+import { photoSingleToolExample } from "../examples/userInterface/singleTool/PhotoSingleToolExample";
+import { videoSingleToolExample } from "../examples/userInterface/singleTool/VideoSingleToolExample";
 import { videoCompositionConfigurationExample } from "../examples/videoComposition/configuration/VideoCompositionConfigurationExample";
 import { ExampleItem } from "../models/Example";
 import { Product } from "../models/Product";
@@ -245,7 +247,7 @@ const transformVESDK: ExampleItem[] = [
   },
 ];
 
-const snappingPESDK: ExampleItem[] = [
+const editorPESDK: ExampleItem[] = [
   {
     title: "Customize Snapping",
     product: Product.PESDK,
@@ -253,15 +255,29 @@ const snappingPESDK: ExampleItem[] = [
       "Present a photo editor modally using a custom snapping configuration.",
     example: photoSnappingConfigurationExample,
   },
+  {
+    title: "Single Tool",
+    product: Product.PESDK,
+    description:
+      "Presents a photo editor modally using the single tool mode.",
+    example: photoSingleToolExample,
+  },
 ];
 
-const snappingVESDK: ExampleItem[] = [
+const editorVESDK: ExampleItem[] = [
   {
     title: "Customize Snapping",
     product: Product.VESDK,
     description:
       "Present a video editor modally using a custom snapping configuration.",
     example: VideoSnappingConfigurationExample,
+  },
+  {
+    title: "Single Tool",
+    product: Product.VESDK,
+    description:
+      "Presents a video editor modally using the single tool mode.",
+    example: videoSingleToolExample,
   },
 ];
 
@@ -729,7 +745,7 @@ export const examplesPESDK = [
 
   {
     title: "Editor Configuration",
-    data: snappingPESDK,
+    data: editorPESDK,
   },
   {
     title: "Transform Configuration",
@@ -801,7 +817,7 @@ export const examplesVESDK = [
 
   {
     title: "Editor Configuration",
-    data: snappingVESDK,
+    data: editorVESDK,
   },
   {
     title: "Video Composition Configuration",

@@ -377,14 +377,14 @@ PODS:
     - React-jsi (= 0.70.0)
     - React-logger (= 0.70.0)
     - React-perflogger (= 0.70.0)
-  - RNPhotoEditorSDK (2.17.0):
+  - RNPhotoEditorSDK (3.0.0):
     - PhotoEditorSDK (~> 11.4)
     - React
     - React-RCTImage
   - RNScreens (3.11.1):
     - React-Core
     - React-RCTImage
-  - RNVideoEditorSDK (2.17.0):
+  - RNVideoEditorSDK (3.0.0):
     - React
     - React-RCTImage
     - VideoEditorSDK (~> 11.4)
@@ -609,9 +609,9 @@ SPEC CHECKSUMS:
   React-RCTVibration: 5499b77c0fd57f346a5f0b36bb79fdb020d17d3e
   React-runtimeexecutor: 80c195ffcafb190f531fdc849dc2d19cb4bb2b34
   ReactCommon: de55f940495d7bf87b5d7bf55b5b15cdd50d7d7b
-  RNPhotoEditorSDK: a2067a9e93cfecff32a2e8ae308ce77caf82deca
+  RNPhotoEditorSDK: 44ef77c0b8fdd1639d9d13dc65114426f27016da
   RNScreens: 4d83613b50b74ed277026375dc0810893b0c347f
-  RNVideoEditorSDK: b348374bd6cf35bff773dc6826d68dd0aa2d9489
+  RNVideoEditorSDK: 0f27b7bc4ce9de1fe51b8fb549e94681fd5f5af8
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   VideoEditorSDK: 77190161e1ca188aa3dfb152978d0f548a66d4ef
   Yoga: 82c9e8f652789f67d98bed5aef9d6653f71b04a9

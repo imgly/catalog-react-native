@@ -1,5 +1,5 @@
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import {
   SafeAreaView,
@@ -9,10 +9,10 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import {PESDK} from 'react-native-photoeditorsdk';
-import {Configuration, VESDK} from 'react-native-videoeditorsdk';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {ExampleListItem} from './ExampleListItem';
+import { PESDK } from 'react-native-photoeditorsdk';
+import { Configuration, VESDK } from 'react-native-videoeditorsdk';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { ExampleListItem } from './ExampleListItem';
 
 const Stack = createNativeStackNavigator();
 

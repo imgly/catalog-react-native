@@ -21,7 +21,7 @@ export const videoAudioConfigurationExample = async (): Promise<void> => {
           items: [
             {
               identifier: "elsewhere",
-              audioURI: require("../../../assets/vesdk/elsewhere.mp3"),
+              audioURI: require("../../../../assets/vesdk/elsewhere.mp3"),
             },
           ],
         },

@@ -1774,7 +1774,7 @@
     node-forge "^1.2.1"
     nullthrows "^1.1.1"
 
-"@expo/config-plugins@7.8.4", "@expo/config-plugins@^7.2.0", "@expo/config-plugins@~7.8.0", "@expo/config-plugins@~7.8.2":
+"@expo/config-plugins@7.8.4", "@expo/config-plugins@~7.8.0", "@expo/config-plugins@~7.8.2":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-7.8.4.tgz#533b5d536c1dc8b5544d64878b51bda28f2e1a1f"
   integrity sha512-hv03HYxb/5kX8Gxv/BTI8TLc9L06WzqAfHRRXdbar4zkLcP2oTzvsLEF4/L/TIpD3rsnYa0KU42d0gWRxzPCJg==
@@ -6076,19 +6076,17 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-imglysdk@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-imglysdk/-/react-native-imglysdk-3.2.0.tgz#82dafe6c3655d974cfbb332238102a0cc0285cf8"
-  integrity sha512-QIxo/DYSJUOyyU2y8wopO1lCp5Vn0WznE1Dg0/bFf3zSyQrSduv0rNZ/I3YxwiwEcIWUJKLQ1GIolftPCZCjwQ==
-  dependencies:
-    "@expo/config-plugins" "^7.2.0"
+react-native-imglysdk@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-imglysdk/-/react-native-imglysdk-3.3.0.tgz#6df0bbe492afd1402a32a31c0d4570c94beac18e"
+  integrity sha512-PG4Ox9OxV+JTgRw4tkD5eQ7un8OspPOaQmT0m+AI7zc0tmHfkD5JbWTWPzbcaopYNrn9mpJSiWDhSHN+8NNVxA==
 
-react-native-photoeditorsdk@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-photoeditorsdk/-/react-native-photoeditorsdk-3.2.0.tgz#4bb703267534e6111b200e9641ff716b8f5e943c"
-  integrity sha512-0eX/DWPGZ4KDSPmLXStNMMjQtqEhmHnoEt1QFGs98qRO2ZjFw3XZCvoovp+UKlju/A5GlQKqgq0GyHDKkrkerQ==
+react-native-photoeditorsdk@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-photoeditorsdk/-/react-native-photoeditorsdk-3.3.0.tgz#b3fb9eeedc89ff711bec0a490d2e720232ed4505"
+  integrity sha512-JugvoF4AZwoiosyEf35QL2jzLwTZ2nSrNRYZ5gUuf4BrHuwMpswm/zc9hOlS9ya85QZEB+/3j02aNYwL1jVDkg==
   dependencies:
-    react-native-imglysdk "3.2.0"
+    react-native-imglysdk "3.3.0"
 
 react-native-safe-area-context@4.8.2:
   version "4.8.2"
@@ -6103,12 +6101,12 @@ react-native-screens@~3.29.0:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
 
-react-native-videoeditorsdk@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-3.2.0.tgz#ff3a8657d72b3508f264f8c069d6dc45be6ad293"
-  integrity sha512-PvoIrMObW46QYP77NnCaaEry8Z3oaSDUB+XtEDsvBt+b1S3p/hf1tuA0rrTNpRpf4Hbh5IjO6l8LYNO+RNcmLg==
+react-native-videoeditorsdk@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-3.3.0.tgz#740549950a9d910dcaff69a03a538be1359fd623"
+  integrity sha512-ZehodAx45IIIZ5D5qCn19jsyn6Z2nXrudLez1DwiWfD0P1s9TnjqTHfnkW7GadUGt4Y3LPWuvIrnYTGy4y1iqA==
   dependencies:
-    react-native-imglysdk "3.2.0"
+    react-native-imglysdk "3.3.0"
 
 react-native-web@~0.19.6:
   version "0.19.10"

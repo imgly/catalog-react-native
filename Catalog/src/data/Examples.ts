@@ -2,6 +2,7 @@ import { photoAdjustmentConfigurationExample } from "../examples/adjustments/con
 import { videoAdjustmentsConfigurationExample } from "../examples/adjustments/configuration/VideoAdjustmentsConfigurationExample";
 import { videoAudioAppBundleExample } from "../examples/audioOverlay/addAudio/fromAppBundle/VideoAudioAppBundleExample";
 import { videoAudioRemoteURLExample } from "../examples/audioOverlay/addAudio/fromRemoteURL/VideoAudioRemoteURLExample";
+import { videoAudioConfigurationExample } from "../examples/audioOverlay/configuration/VideoAudioConfigurationExample";
 import { photoFramesAppBundleExample } from "../examples/borderFrames/addFrames/fromAppBundle/PhotoFramesAppBundleExample";
 import { videoFramesAppBundleExample } from "../examples/borderFrames/addFrames/fromAppBundle/VideoFramesAppBundleExample";
 import { photoFramesRemoteURLExample } from "../examples/borderFrames/addFrames/fromRemoteURL/PhotoFramesRemoteURLExample";
@@ -258,8 +259,7 @@ const editorPESDK: ExampleItem[] = [
   {
     title: "Single Tool",
     product: Product.PESDK,
-    description:
-      "Presents a photo editor modally using the single tool mode.",
+    description: "Presents a photo editor modally using the single tool mode.",
     example: photoSingleToolExample,
   },
 ];
@@ -275,8 +275,7 @@ const editorVESDK: ExampleItem[] = [
   {
     title: "Single Tool",
     product: Product.VESDK,
-    description:
-      "Presents a video editor modally using the single tool mode.",
+    description: "Presents a video editor modally using the single tool mode.",
     example: videoSingleToolExample,
   },
 ];
@@ -675,17 +674,24 @@ const filterExamplesVESDK: ExampleItem[] = [
 
 const audioExamplesVESDK: ExampleItem[] = [
   {
-    title: "Audio configuration",
+    title: "Custom Configuration",
     product: Product.VESDK,
     description:
-      "Loads a video from an remote URL and presents the video editor.",
+      "Presents a video editor modally using a custom audio overlay tool configuration.",
+    example: videoAudioConfigurationExample,
+  },
+  {
+    title: "Add audio overlay from local path",
+    product: Product.VESDK,
+    description:
+      "Loads audio overlays from the app bundle and presents a video editor modally.",
     example: videoAudioAppBundleExample,
   },
   {
-    title: "Audio configuration",
+    title: "Add audio overlay from remote URL",
     product: Product.VESDK,
     description:
-      "Loads a video from an remote URL and presents the video editor.",
+      "Loads audio overlays from a remote URL and presents a video editor modally.",
     example: videoAudioRemoteURLExample,
   },
 ];

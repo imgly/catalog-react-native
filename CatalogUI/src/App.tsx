@@ -8,11 +8,13 @@ import {
   StyleSheet,
   useColorScheme,
   View,
+  Image,
 } from 'react-native';
 import { PESDK } from 'react-native-photoeditorsdk';
 import { Configuration, VESDK } from 'react-native-videoeditorsdk';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { ExampleListItem } from './ExampleListItem';
+
+const Colors = { white: '#ffffff', black: '#000000', darker: '#121212' } as const;
 
 const Stack = createNativeStackNavigator();
 
@@ -43,8 +45,9 @@ function HomeScreen() {
 
   async function openPhotoEditor() {
     try {
+      const photoUri = Image.resolveAssetSource(require('../assets/pesdk/LA.jpg')).uri;
       const result = await PESDK.openEditor(
-        require('../assets/pesdk/LA.jpg'),
+        photoUri,
         configuration,
       );
       console.log(result?.image);
@@ -55,8 +58,9 @@ function HomeScreen() {
 
   async function openVideoEditor() {
     try {
+      const videoUri = Image.resolveAssetSource(require('../assets/vesdk/Skater.mp4')).uri;
       const result = await VESDK.openEditor(
-        require('../assets/vesdk/Skater.mp4'),
+        videoUri,
         configuration,
       );
       console.log(result?.video);
